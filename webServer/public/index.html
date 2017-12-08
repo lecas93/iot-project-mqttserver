@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Server ESPino</title>
+    <script type="text/javascript" src="scripts/mqtt.min.js"></script>
+    <script type="text/javascript" src="scripts/manager.js"></script>
+</head>
+
+<body onload="load()" onreset="reset()">
+    <h1>ESPino Simple Web Manager</h1>
+
+    <textarea id="textArea" rows="30" cols="60" readonly="readonly"></textarea>
+    <br />
+    <button type="button" onclick="activar()">Activar!</button>
+    <button type="button" onclick="desactivar()">Desactivar!</button>
+    <button type="button" onclick="silenciar()">Silenciar</button>
+    <button type="button" onclick="getEstado()">Verificar Estado</button>
+    
+</body>
+
+</html>

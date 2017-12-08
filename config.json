@@ -1,0 +1,7 @@
+{
+    "token": "tu-token-de-acceso",
+    "chatID": "tu-idchat",
+    "prefix": "/",
+    "emailUser": "tu-email",
+    "emailPass": "el-password-de-tu-email"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mqttserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "angel leon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mqtt": "^2.14.0",
+    "node-telegram-bot-api": "^0.29.0",
+    "nodemailer": "^4.4.0",
+    "ping": "^0.2.2"
+  }
+}
